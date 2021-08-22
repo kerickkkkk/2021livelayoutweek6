@@ -5,108 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
+    <title>WebLayout2021Week6</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/bootstrap.css">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border border-dark py-0">
+      <div class="container position-relative">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand position-lg-absolute d-inline-block top-50 start-50 translate-middle-lg px-4 py-7 me-0" href="./index.html">
+          <h1 class="h4 text-primary lh-1 fw-normal text-center mb-0">
+            EXHIBINECTION
+          </h1>
+        </a>
+        <a class="nav-link text-dark order-lg-1 py-7 pe-lg-0 me-0" href="#">
+          <div class="position-relative">
+            <i class="material-icons align-middle lh-0 text-black">confirmation_number</i>
+            <span class="cartNumber position-absolute top-0 start-100 translate-middle badge rounded-pill btn-secondary">3</span>
+          </div>
+        </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item w-100 w-lg-auto">
+              <a class="nav-link text-dark py-7 px-4" href="#">Sing in</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="nav-item w-100 w-lg-auto">
+              <a class="nav-link text-dark py-7 px-4" href="#">Sign up</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
 
     
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
+<main>
+  <section class="hero bg-cover-center">
+    <div class="container h-100 ">
+      <div class="row align-items-center h-100">
+        <div class="offset-lg-1">
+          <h2 class="text-white">台北當代藝術展</h2>
+          <p class="text-white fs-5">01 JUN - 31 OCT</p>
+          <div class="row">
+            <div class=" col-6 col-lg-2">
+              <div class="d-grid gap-2">
+                <button class="btn btn-secondary btn-block">購買票券</button>
+              </div>
+            </div>
+            <div class=" col-6 col-lg-2">
+              <div class="d-grid gap-2">
+                <button class="hero__detail btn btn-outline-secondary text-white border-white">詳細資訊</button>
+              </div>
+            </div>
+          </div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+  <ul class="menu scrollbar-none border border-dark d-flex justify-content-md-center">
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">音樂</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">戲劇</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">設計</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">藝術</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">美食</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">旅遊</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">電影</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">親子</a></li>
+    <li><a href="javascript:;" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">期間限定</a></li>
+  </ul>
+</main>
+
 
 
     <footer class="footer">
       footer
     </footer>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
