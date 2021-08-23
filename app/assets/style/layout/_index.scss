@@ -1,5 +1,42 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.navbar-brand, .nav-link{
+  &:hover{
+    background-color: $primary !important;
+    color:$white !important;
+    h1, i{
+      color:$white !important;
+    }
+  }
+}
+
+.hero{
+  height: 480px;
+  background-image: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg);
+  &__detail{
+    @include media-breakpoint-up(lg){
+      transform:translateX(-22px);
+    }
+  }
+}
+
+.menu{
+  overflow-y: hidden;
+  overflow-x: auto;
+  cursor: grab;
+
+  &__item{
+    margin: {
+      top:14px;
+      bottom:14px;
+    };
+    border-bottom: 1px solid transparent;
+    transition: border-color .3s;
+    &:hover , &.active{
+      border-color: $secondary;
+    }
+  }
+}
+.hotShow{
+  &__img{
+    height:350px;
+  }
 }

@@ -5,9 +5,11 @@ body{
 img{
   vertical-align: middle;
   object-fit: cover;
+  background-size: center center;
 }
 
 ol,
 ul {
-    list-style: none
+    list-style: none;
+    padding-left: 0;
 }
