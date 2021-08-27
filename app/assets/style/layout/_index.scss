@@ -40,3 +40,34 @@
     height:350px;
   }
 }
+.live{
+  &__rectangle{
+    background-color: #190014CC;
+  }
+}
+
+.guess{
+  &__img{
+    height: 345px;
+  }
+}
+.subscribe{
+  height: 400px;
+  padding-bottom: 36px;
+  &__btn{
+    padding-left:51px;
+    padding-right:51px;
+  }
+}
+.footer{
+  padding : 16px;
+  @include media-breakpoint-up(md){
+      padding-left: 85px;
+      padding-right: 85px;
+  }
+
+  &__title{
+    font-size: 22px;
+    line-height: 23px;
+  }
+}
