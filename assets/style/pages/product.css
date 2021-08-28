@@ -1,0 +1,14 @@
+.productList__item {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+@media (min-width: 768px) {
+  .productList__item {
+    padding-top: 80px;
+    padding-bottom: 52px;
+    padding-left: 85px;
+  }
+}
+
+/*# sourceMappingURL=product.css.map */

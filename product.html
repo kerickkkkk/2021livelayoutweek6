@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebLayout2021Week6</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border border-dark py-0">
+      <div class="container position-relative">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand position-lg-absolute d-inline-block top-50 start-50 translate-middle-lg px-4 py-7 me-0" href="./index.html">
+          <h1 class="h4 text-primary lh-1 fw-normal text-center mb-0">
+            EXHIBINECTION
+          </h1>
+        </a>
+        <a class="nav-link text-dark order-lg-1 py-7 pe-lg-0 me-0" href="#">
+          <div class="position-relative">
+            <i class="material-icons align-middle lh-0 text-black">confirmation_number</i>
+            <span class="cartNumber position-absolute top-0 start-100 translate-middle badge rounded-pill btn-secondary">3</span>
+          </div>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item w-100 w-lg-auto">
+              <a class="nav-link text-dark py-7 px-4" href="#">Sing in</a>
+            </li>
+            <li class="nav-item w-100 w-lg-auto">
+              <a class="nav-link text-dark py-7 px-4" href="#">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+  <ul class="menu d-none d-md-flex scrollbar-none border border-dark justify-content-md-center mb-0">
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">音樂</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">戲劇</a></li>
+    <li><a href="./product.html" class="active menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">設計</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">藝術</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">美食</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">旅遊</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">電影</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">親子</a></li>
+    <li><a href="./product.html" class="menu__item text-nowrap d-inline-block text-decoration-none text-dark px-4">期間限定</a></li>
+  </ul>
+  <section>
+    <ul class="productList">
+      <li class="productList__item bg-primary text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 order-3 order-md-1">
+              <h2 class="h1 fw-bold mb-6">2020 台味設計展</h2>
+              <p class="fw-medium">
+                一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+              </p>
+            </div>
+            <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+              <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="2020 台味設計展">
+            </div>
+            <div class="col-md-1 order-2 order-md-3 align-self-md-end mb-2 mb-md-0">
+              <div class="fs-6 fs-md-5 fw-bold d-block d-md-none">
+                01 JUN — 31 OCT
+              </div>
+              <div class="fs-6 fs-md-5 fw-bold d-none d-md-block">
+                01 <br> JUN <br> | <br> 31 <br> OCT
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="productList__item container text-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 order-3 order-md-1 offset-md-2">
+              <h2 class="h1 fw-bold mb-6">No.22 線上設計展</h2>
+              <p class="fw-medium">
+                這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。
+              </p>
+            </div>
+            <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+              <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="No.22 線上設計展">
+            </div>
+            <div class="col-md-1 order-2 order-md-3 align-self-md-end mb-2 mb-md-0">
+              <div class="fs-6 fs-md-5 fw-bold d-block d-md-none">
+                01 JUN — 31 OCT
+              </div>
+              <div class="fs-6 fs-md-5 fw-bold d-none d-md-block">
+                01 <br> JUN <br> | <br> 31 <br> OCT
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="productList__item bg-primary text-white mb-11">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 order-3 order-md-1">
+              <h2 class="h1 fw-bold mb-6">高雄設計節</h2>
+              <p class="fw-medium">
+                設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？
+              </p>
+            </div>
+            <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+              <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="高雄設計節">
+            </div>
+            <div class="col-md-1 order-2 order-md-3 align-self-md-end mb-2 mb-md-0">
+              <div class="fs-6 fs-md-5 fw-bold d-block d-md-none">
+                01 JUN — 31 OCT
+              </div>
+              <div class="fs-6 fs-md-5 fw-bold d-none d-md-block">
+                01 <br> JUN <br> | <br> 31 <br> OCT
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+
+    <section class="guess container mb-6">
+      <h3 class="h2 fw-bold mb-2 mb-md-6">猜你也喜歡...</h3>
+      <div class="row">
+        <div class="offset-md-1 col-md-11">
+          <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="guess__img bg-cover-center mb-2" style="background-image: url(./assets/images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg);">
+                </div>
+                <h4 class="h5 fw-bold">No.22 線上設計展</h4>
+                <p class="fs-5 mb-4">$350</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="guess__img bg-cover-center mb-2" style="background-image: url(./assets/images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg);">
+                </div>
+                <h4 class="h5 fw-bold">No.22 線上設計展</h4>
+                <p class="fs-5 mb-4">$350</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="guess__img bg-cover-center mb-2" style="background-image: url(./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash.jpg);">
+                </div>
+                <h4 class="h5 fw-bold">No.22 線上設計展</h4>
+                <p class="fs-5 mb-4">$350</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="subscribe bg-cover-center" style="background-image: url(./assets/images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);">
+      <div class="container h-100">
+        <div class="row align-items-end h-100">
+          <div class="subscribeWrap">
+            <h2 class="text-white mb-3">
+              想收到最新消息嗎？ <br> 快訂閱我們！
+            </h2>
+            <div class="col-md-4">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control p-3" placeholder="輸入您的電子信箱">
+                <button class="subscribe__btn btn btn-secondary py-3" type="button">訂閱</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer d-md-flex justify-content-md-between">
+      <div class="d-md-flex align-items-center">
+        <div class="footer__logo py-md-7 me-4">
+          EXHIBINECTION
+        </div>
+        <p class="mb-0">
+          © 2020. All Rights Reserved.
+        </p>
+      </div>
+      <div class="d-none d-md-flex align-items-center">
+        <a href="#" class="text-decoration-none text-dark me-6">Sign in</a>
+        <a href="#" class="text-decoration-none text-dark">Sign up</a>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>

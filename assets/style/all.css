@@ -113,12 +113,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.35rem + 1.2vw);
 }
 
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 
@@ -8877,7 +8877,7 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(1.35rem + 1.2vw) !important;
 }
 
 .fs-2 {
@@ -10166,7 +10166,7 @@ fieldset:disabled .btn {
     padding-left: 3.75rem !important;
   }
   .fs-sm-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(1.35rem + 1.2vw) !important;
   }
   .fs-sm-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -11115,7 +11115,7 @@ fieldset:disabled .btn {
     padding-left: 3.75rem !important;
   }
   .fs-md-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(1.35rem + 1.2vw) !important;
   }
   .fs-md-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -12064,7 +12064,7 @@ fieldset:disabled .btn {
     padding-left: 3.75rem !important;
   }
   .fs-lg-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(1.35rem + 1.2vw) !important;
   }
   .fs-lg-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -13013,7 +13013,7 @@ fieldset:disabled .btn {
     padding-left: 3.75rem !important;
   }
   .fs-xl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(1.35rem + 1.2vw) !important;
   }
   .fs-xl-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -13962,7 +13962,7 @@ fieldset:disabled .btn {
     padding-left: 3.75rem !important;
   }
   .fs-xxl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(1.35rem + 1.2vw) !important;
   }
   .fs-xxl-2 {
     font-size: calc(1.325rem + 0.9vw) !important;
@@ -14010,7 +14010,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
   }
   .fs-2 {
     font-size: 2rem !important;
@@ -14022,7 +14022,7 @@ fieldset:disabled .btn {
     font-size: 1.5rem !important;
   }
   .fs-sm-1 {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
   }
   .fs-sm-2 {
     font-size: 2rem !important;
@@ -14034,7 +14034,7 @@ fieldset:disabled .btn {
     font-size: 1.5rem !important;
   }
   .fs-md-1 {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
   }
   .fs-md-2 {
     font-size: 2rem !important;
@@ -14046,7 +14046,7 @@ fieldset:disabled .btn {
     font-size: 1.5rem !important;
   }
   .fs-lg-1 {
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
   }
   .fs-lg-2 {
     font-size: 2rem !important;
@@ -14101,6 +14101,7 @@ body {
 }
 
 img {
+  max-width: 100%;
   vertical-align: middle;
   -o-object-fit: cover;
      object-fit: cover;
@@ -14157,6 +14158,53 @@ ul {
 
 .hotShow__img {
   height: 350px;
+}
+
+.live__rectangle {
+  background-color: #190014CC;
+}
+
+.guess__img {
+  height: 345px;
+}
+
+.subscribe {
+  height: 400px;
+  padding-bottom: 36px;
+}
+
+.subscribe__btn {
+  padding-left: 51px;
+  padding-right: 51px;
+}
+
+.footer {
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+.footer__title {
+  font-size: 22px;
+  line-height: 23px;
+}
+
+.productList__item {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+@media (min-width: 768px) {
+  .productList__item {
+    padding-top: 80px;
+    padding-bottom: 52px;
+    padding-left: 85px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
