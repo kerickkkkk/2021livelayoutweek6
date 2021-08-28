@@ -4,12 +4,20 @@
       top: 44px;
       bottom: 44px;
     }
-    @include media-breakpoint-up(md){
-      padding : {
-        top: 80px;
-        bottom: 52px;
-        left: 85px;
-      }
+    @media (min-width: 768px) {
+        padding : {
+          top: 80px;
+          bottom: 52px;
+          left: 85px;
+        }
     }
+    // ?? no mixin named media-breakpoint-up
+    // @include media-breakpoint-up(md){
+    //   padding : {
+    //     top: 80px;
+    //     bottom: 52px;
+    //     left: 85px;
+    //   }
+    // }
   }
 }
